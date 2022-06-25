@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assigenment 02</title>
+    <title>wev-css</title>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/078fe6b1bd.js" crossorigin="anonymous"></script>
     <!-- css links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -19,15 +20,15 @@
 <body>
     <!-- header start -->
     
-    <header class=" bg-gray vh-100">
+    <header class="vh-100" style="background-color: #19142a;">
         <!-- hero section -->
-        <nav class=" container navbar navbar-expand-lg ">
+        <nav class=" container navbar navbar-expand-lg  ">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -44,298 +45,156 @@
             </div>
           </nav>
         <!--nav end-->
-        <section class="">
-            <div class="hero-section container h-100 ">
-                <div class="hero-text">
-                    <h1 class="section-title">Start Your Journey as Influencer</h1>
-                    <p>Influencer marketing is a form of social media, marketing <br>involving endorsements and product.
+        <section class=" ">
+            <div class="container">
+               <div class="row d-flex align-items-center p-5">
+                <div class="col-md-6 ">
+                    <h1 class="section-title text-white">Muhammad Bellal</h1>
+                    <p class="text-white">I am Muhammad Bellal, an expert Graphics Designer. I have been working on graphic design for 5 years. 
+                        I have proper experience on Photoshop, Illustrator, InDesign & like this type of designing.
                     </p>
                     <div class="btn">
                         <span>Preebook now</span>
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img class="img-fluid" src="img/bast-img.jpg" alt="" srcset="">
+
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/banner.png" alt="" srcset="">
                 </div>
+               </div>
             </div>
         </section>
-            
-            
     </header>
     <!-- header end -->
     <main>
-        
-        <!-- populer section -->
-        <section class="container">
-            <div class="populer-collections">
-                <h3 class="populer-title">Popular Collection</h3>
-                <div class="collection">
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/tripod.png" alt="" srcset="">
+        <!-- start -->
+        <!-- fjdsfj -->
+        <section style="background-color: #2a2344;">
+            <div class="container">
+                <div class="row g-2 p-5">
+                  <div class="col-md-3">
+                    <div class=" d-flex justify-content-center p-3  counter rounded-start ">
+                        <div class="text-white">
+                            <h1>45</h1>
+                            <h5>Project</h5>
                         </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/action.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/airpod.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/camera.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/drone.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/mic.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/setup.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items">
-                        <div class="thumbnail">
-                            <img src="img/single-light.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-                    <article class="coll-items Medium-version">
-                        <div class="thumbnail">
-                            <img src="img/drone.png" alt="" srcset="">
-                        </div>
-                        <div class="coll-info">
-                            <h3>Flex Tripod</h3>
-                            <p class="price">$50.48</p>
-                            <div class="item-review">
-                                <div class="reating-1">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
-                                </div>
-                                <div class="rating-2">
-                                    <span>4.9</span>
-                                </div>
-                            </div>
-                            <p class="items-text">Wordwide shifting <br>available<br>
-                                Buyers protection possible!</p>
-                        </div>
-
-
-                    </article>
-
-
-                </div>
-                <div class="see-more-icon">
-                    <div class="icon">
-                        <span>See more</span>
-                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- populer section end -->
-
-
-        <!-- Subscription section -->
-        <section class="container">
-            <div class="subcription">
-                <div class="s-img">
-                    <img src="img/gear.png" alt="" srcset="">
-                </div>
-                <div class="s-text">
-                    <h3 class="s-title">Featured products at one place</h3>
-                    <p class="s-paragraph">These featured products can be displayed anywhere.
-                        You can mark the featured product from the product page itself.
-                        Product features are a product's traits or attributes that deliver
-                        .</p>
-                    <div class="btn-s">
-                        <span>Join now</span>
-                        <i class="fas fa-arrow-right"></i>
+                  <div class="col-md-3">
+                    <div class=" d-flex justify-content-center p-3  counter rounded-start">
+                        <div class="text-white">
+                            <h1>45</h1>
+                            <h5>Project</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+                  <div class="col-md-3">
+                    <div class="d-flex justify-content-center p-3  counter rounded-start">
+                        <div class="text-white">
+                            <h1>45</h1>
+                            <h5>Project</h5>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3">
+                    <div class=" d-flex justify-content-center p-3  counter rounded-start">
+                        <div class="text-white">
+                            <h1>45</h1>
+                            <h5>Project</h5>
+                        </div>
+                    </div>
+                </div>
+                  
+              </div>
         </section>
-        <!-- Subscription section  End-->
+        <!-- counter-section -->
+        <section style="background-color: #19142a;">
+        <div class="container"> 
+            <div class="collection p-5">
+                <article> 
+                    <div class="image-item m-2">
+                        <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                    </div>
+                </article>
+                <article> 
+                    <div class="image-item m-2">
+                        <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                    </div>
+                </article>
+                <article> 
+                    <div class="image-item m-2">
+                        <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                    </div>
+                </article>
+                <article> 
+                    <div class="image-item m-2">
+                        <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                    </div>
+                </article>
+                <article> 
+                    <div class="image-item m-2">
+                        <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                    </div>
+                </article>
+                <article> 
+                    <div class="image-item m-2">
+                        <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                    </div>
+                </article>
+            </div>
+        </div>    
+        </section>    
+        <!-- dsf -->
+       <!-- <section style="background-color: #19142a;">
+           <div class="container">
+            <h2 style="text-align:center" class="text-white">Our project</h2>
 
+             <div class="collection p-5 ">
+                
+                <div class="image-item m-2">
+                    <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                </div>
+                <div class="image-item m-2">
+                    <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                </div>
+                <div class="image-item m-2">
+                    <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                </div>
+                <div class="image-item m-2">
+                    <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                </div>
+                <div class="image-item  m-2">
+              
+                    <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                </div>
+                <div class="image-item  m-2">
+                    <img class="img-fluid" src="img/321.jpg" alt="" srcset="">
+                </div>
+                
+            </div>
+           </div>
+       </section>
+       <section>
+        <div class=" container px-5 row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+        </div>
+       </section>
     </main>
     <!-- footer section  start-->
-    <footer class="footer">
-        <h3 class="footer-title">Influencer products</h3>
+    <footer class="footer text-white text-center p-5" style="background-color: #2a2344;">
+         <h3 class="footer-title">Influencer products</h3>
         <p class="copyright-text">Copyright &#169 2022 influencer products</p>
         <p class="copyright-text">All rights reserved</p>
         <div class="socil-icon">
@@ -343,12 +202,10 @@
             <i class="fab fa-twitter i-color"></i>
             <i class="fab fa-youtube i-color"></i>
             <i class="fab fa-instagram i-color"></i>
-
-
-        </div>
+        </div> 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- bootstrap-js -cdn -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
