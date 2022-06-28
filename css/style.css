@@ -22,16 +22,21 @@ body{
     background-color: rebeccapurple;
     
 }
-.width{
-    width: 50%;
+.i-con i{
+    color: red;
+    font-size: 1.5rem;
 }
 
 
 .counter{
-    border:2px dashed red;
+    border:3px dashed red;
+    border-top-right-radius: 25px;
+    height: 130px;
+    width: auto;
 }
 .counter:hover{
-    border:2px solid red;
+    border:3px solid red;
+    border-top-right-radius: 25px;
 }
 .counters{
     display: flex;
@@ -44,6 +49,10 @@ body{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+}
+
+  .socil-icon:hover .i-color{
+   color: red;
 }
 .footer{
     background-color: grey;
