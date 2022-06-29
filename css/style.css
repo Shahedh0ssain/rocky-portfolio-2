@@ -15,16 +15,26 @@ body{
     align-items: center;
     justify-content: center;
 }
-.img{
+/* .img{
     
     width:400px;
     height: 100%;
-    background-color: rebeccapurple;
-    
+    background-color: rebeccapurple;  
+} */
+.img{
+    border: 1px solid#FFF;
+    border-radius: 10px;
 }
+.img:hover{
+    border: 1px solid red;
+}
+
 .i-con i{
-    color: red;
+    color: #FFF;
     font-size: 1.5rem;
+}
+.i-con i:hover{
+    color: rgb(242, 72, 72);
 }
 
 
@@ -42,19 +52,46 @@ body{
     display: flex;
     justify-content:center;
 
-
 }
 .collection{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-  .socil-icon:hover .i-color{
-   color: red;
+.socil-icon i:hover{
+    color: rgb(242, 72, 72);
 }
+
 .footer{
     background-color: grey;
    
 }
+
+/* pogress-bar */
+.progress {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    background: rgb(185, 70, 70);
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.progress-done {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-weight: bolder;
+    color: #fff;
+    height: 100%;
+    background: linear-gradient(to left,rgb(253, 2, 140),rgb(240, 199, 230));
+    border-radius: 20px;
+    /* display: grid;
+    place-items: center; */
+    /* width: 0; */
+    box-shadow: 0 0 3px -5px rgb(253, 2, 140), 0px 3px 150px rgb(253, 2, 140);
+    transition: width .5s ease;
+}
+/* end */
